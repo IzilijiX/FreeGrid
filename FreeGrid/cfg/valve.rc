@@ -1,0 +1,22 @@
+// load the base configuration
+//exec default.cfg
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+hostname "IsjiX's FreeGrid Server"
+
+mp_forcerespawn 1
+mp_weaponstay 1
+mp_teamplay 0
+mp_footsteps 1
+mp_flashlight 1
+mp_fraglimit 50
+mp_timelimit 30
